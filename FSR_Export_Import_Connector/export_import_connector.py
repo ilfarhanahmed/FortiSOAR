@@ -43,14 +43,14 @@ def list_connectors():
         "limit": 100,
         "logic": "AND",
         "filters": [
-            {"field": "type",      "operator": "in", "value": ["connector"]},
+            {"field": "type", "operator": "in", "value": ["connector"]},
             {"field": "installed", "operator": "eq", "value": True},
             {
                 "logic": "OR",
                 "filters": [
                     {"field": "development", "operator": "eq", "value": False},
-                    {"field": "type",        "operator": "eq", "value": "widget"},
-                    {"field": "type",        "operator": "eq", "value": "solutionpack"}
+                    {"field": "type", "operator": "eq", "value": "widget"},
+                    {"field": "type",  "operator": "eq", "value": "solutionpack"}
                 ]
             }
         ]
@@ -70,7 +70,7 @@ def list_connectors():
 
 
 # =========================================================================
-# List installed connectors and prompt user to select a connector to export
+# Show installed connectors and prompt user to select a connector to export
 # =========================================================================
 def prompt_connector_selection(connectors):
     col_w = {"#": 4, "Label": 40, "Name": 35, "Version": 10, "Status": 12}
