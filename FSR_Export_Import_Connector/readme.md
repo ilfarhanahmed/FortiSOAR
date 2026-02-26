@@ -76,8 +76,3 @@ Install into the interpreter you are using:
 ```bash
 python -m pip install requests
 ```
-
----
-
-## License
-MIT/Apache-2.0/etc.
