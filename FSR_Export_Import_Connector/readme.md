@@ -34,7 +34,7 @@ Set these environment variables:
 - `FSR_USERNAME` – username
 - `FSR_PASSWORD` – password
 
-Use a admin user with CRUD permissions on Connector and SolutionPacks modules.
+Use a admin user with CRUD permissions on **Connectors** and **Solution Packs** modules.
 
 ---
 
