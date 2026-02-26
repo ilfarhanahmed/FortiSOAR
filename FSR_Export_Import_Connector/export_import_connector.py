@@ -126,10 +126,10 @@ def export_connector(connector_id, name, version):
     print(f"[OK] Connector exported -> {output_path}")
     return output_path
 
-# ======================================================================
+# ========================================================================
 # IMPORT CONNECTOR - will show available tgz files in current directory
-# This will replace the existing config, it can be changed in line #159
-# ======================================================================
+# This will replace the existing connector, it can be changed in line #159
+# ========================================================================
 def import_connector():
     print("\n---------- Import Connector -----------------------------")
 
