@@ -1,4 +1,4 @@
-# FortiSOAR Connector Export/Import Tool (Non-Interactive)
+# FortiSOAR Connector Export/Import Tool
 
 A Python CLI tool to **export** installed FortiSOAR connectors to a `.tgz` and **import** a connector `.tgz` into FortiSOAR.
 
